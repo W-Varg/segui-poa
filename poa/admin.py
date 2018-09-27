@@ -1,0 +1,27 @@
+from django.contrib import admin
+from .models import Cargo, Persona, Unidad, Usuarios, Gestion, Programa, Lugar, Proyectoactividad, Financiamiento, Frentes, Localizacion, Operacion, Empresa, Seguimiento, Responsables, DetalleSeguimiento, Contrato, Ordendecambio, Ejecucion, EjecucionFinanciera, EjecucionFisica, Galeria, Configuracion
+
+
+admin.site.register(Cargo)
+admin.site.register(Persona)
+admin.site.register(Unidad)
+admin.site.register(Usuarios)
+admin.site.register(Gestion)
+admin.site.register(Programa)
+admin.site.register(Lugar)
+admin.site.register(Proyectoactividad)
+admin.site.register(Financiamiento)
+admin.site.register(Frentes)
+admin.site.register(Localizacion)
+admin.site.register(Operacion)
+admin.site.register(Empresa)
+admin.site.register(Seguimiento)
+admin.site.register(Responsables)
+admin.site.register(DetalleSeguimiento)
+admin.site.register(Contrato)
+admin.site.register(Ordendecambio)
+admin.site.register(Ejecucion)
+admin.site.register(EjecucionFinanciera)
+admin.site.register(EjecucionFisica)
+admin.site.register(Galeria)
+admin.site.register(Configuracion)
